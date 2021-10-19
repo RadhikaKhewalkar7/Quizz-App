@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgspacequizz"
+    android:hapticFeedbackEnabled="true"
+    android:textAlignment="center"
+    android:textDirection="firstStrong"
+    tools:context=".Space">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="415dp"
+        android:layout_height="416dp"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:backgroundTint="#D66F6F"
+            android:onClick="trueButton"
+            android:text="True"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#E33030"
+            android:backgroundTint="#D8A420"
+            android:onClick="falseButton"
+            android:text="False"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="#DD2C2C"
+            android:gravity="center"
+            android:text="Score"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#17D2EA"
+            android:textColorHint="#00BCD4"
+            android:textColorLink="#D51717"
+            android:textDirection="inherit"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            app:autoSizeTextType="uniform" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#40C4D5"
+            android:progressTint="@color/black" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:gravity="center"
+        android:text="Saturn Has Seven Rings."
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

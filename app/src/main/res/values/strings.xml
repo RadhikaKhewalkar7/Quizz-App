@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Quizz</string>
+
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/10</string>
+
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="question_1">Saturn  Has seven Rings.</string>
+    <string name="question_2">Pluto is a dwarf planet.</string>
+    <string name="question_3">Space is continuously expanding.</string>
+    <string name="question_4">Mars Is Known as the blue planet or sister of earth.</string>
+    <string name="question_5">Asteroid belt is found between earth and Jupiter</string>
+    <string name="question_6">Comets Are made of snow, ice and dust</string>
+    <string name="question_7">Phobos and debits are moons of Venus</string>
+    <string name="question_8">SUN is made up from hydrogen and carbon dioxide gas.</string>
+    <string name="question_9">Uranus moon names are oberon and Titania</string>
+    <string name="question_10">Buzz Aldrin\'s mother\'s maiden name was \"Moon\".</string>
+
+<string name="question_11">Electrons are larger than molecules.</string>
+   <string name="question_12">Water is an example of a chemical element.</string>
+    <string name="question_13">The Atlantic Ocean is the biggest ocean on Earth.</string>
+    <string name="question_14">The chemical make up food often changes when you cook it.</string>
+    <string name="question_15">Sharks are mammals</string>
+    <string name="question_16"> The human body has four lungs.</string>
+    <string name="question_17">Atoms are most stable when their outer shells are full.</string>
+    <string name="question_18">Filtration separates mixtures based upon their particle size.</string>
+    <string name="question_19">Conductors have low resistance.</string>
+    <string name="question_20">Molecules can have atoms from more than one chemical element.</string>
+
+    <string name="question_21">An average ear of corn has odd number of rows</string>
+    <string name="question_22">The popsicle was invented by an 11-year old.</string>
+    <string name="question_23">Froot Loops are all the same flavor.</string>
+    <string name="question_24">French fries were made in Greece.</string>
+    <string name="question_25">It can take up to 10 years for an avocado to fully grow.</string>
+    <string name="question_26">Supermarket apples can be a year old.</string>
+    <string name="question_27">No matter what color Fruit Loop you eat, they all taste the same</string>
+    <string name="question_28">Chimichurri is a green sauce that originated in Mexico.</string>
+    <string name="question_29">
+Tequila is made from the blue agave plant.</string>
+    <string name="question_30">Baby carrots are actually regular carrots that have just been cut down to a small size.</string>
+
+
+</resources>
